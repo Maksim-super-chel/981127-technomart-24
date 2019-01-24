@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Максим](https://up.htmlacademy.ru/htmlcss/24/user/981127).
-* Наставник: [Игорь Плиев].
+* Наставник: [Игорь Плиев](https://htmlacademy.ru/profile/ip).
 
 ---
 
