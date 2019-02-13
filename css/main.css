@@ -1,0 +1,433 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Cuprum", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 24px;
+  font-weight: 700;
+  color: #000;
+  text-transform: uppercase;
+  
+  background-color: #fff;
+}
+
+.main-hot-button {
+  background-color: #293449;
+}
+
+.main-navigation-hot-button{
+  font-size: 17px;
+  line-height: 18px;
+  list-style: none;
+}
+.main-navigation-hot-button .formalize a{
+  background-color: #63a63e;
+}
+
+.main-hot-button .search,
+.main-hot-button a{
+  color: #fff;
+}
+
+a{
+  text-decoration: none;
+  text-transform: none;
+}
+
+.main-hot-button .search{
+  text-transform: none;
+}
+
+.main-navigation-hot-button .formalize a:hover{
+  background-color: #5fbb2d;
+}
+
+.main-navigation-hot-button .formalize a:focus{
+  background-color: #518534;
+  color:rgba(255,255,255,0.6)
+}
+
+.main-navigation-hot-button a:hover{
+  background-color: #212a3a;
+}
+
+.main-navigation-hot-button a:focus{
+  background-color: #161d29;
+  opacity: 0.6;
+}
+.info-navigation{
+  background-color: #f4f7f9;
+  color: #000;
+}
+
+.header-info {
+  color:#ee3643;
+  font-size: 16px;
+  line-height: 23px;
+  text-transform: none;
+}
+
+.number{
+  color:#ee3643;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.address{
+  color:#32425c;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: none;
+}
+
+.user-navigation a{
+  color: #000;
+  font-size: 21px;
+  line-height: 21px;
+  text-transform: none;
+}
+
+.user-navigation{
+  list-style: none;
+}
+
+.user-navigation a:hover{
+  color: #ee3643;
+}
+
+.user-navigation a:focus{
+  color: #000;
+  color:rgba(0,0,0,0.5)
+}
+
+.site-navigation{
+  font-size: 17px;
+  line-height: 17px;
+  list-style: none;
+}
+
+.site-navigation a{
+  color: #fff;
+  background-color: #32425c;
+}
+
+.site-navigation a:hover{
+  background-color: #293449;
+}
+
+.site-navigation a:focus{
+  background-color: #1d2739;
+  color:rgba(255,255,255,0.5)
+}
+
+.info-contacts{
+  background-color: #fff;
+  color:#000;
+  text-transform: none;
+}
+
+.info-company h2{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.info-company p{
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.partners{
+  font-size: 18px;
+  line-height: 20px;
+  list-style: none;
+}
+
+.button{
+  font-size: 14px;
+  line-height: 18px;
+  color:#fff;
+  background-color: #ee3643;
+}
+
+.contacts h2{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.contacts p{
+  font-size: 13px;
+  line-height: 24px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+.button:hover{
+  background-color: #ca2c37;
+}
+
+.button:focus{
+  background-color: #ba2732;
+}
+
+.footer-navigation{
+  background-color: #32425c;
+  color: #f3f7f9;
+  text-transform: none;
+}
+
+img{
+  background-color: #ee3643;
+}
+
+.address-number{
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.site-navigation-footer{
+  font-size: 18px;
+  line-height: 24px;
+  list-style: none;
+}
+
+.site-navigation-footer a{
+  color: #fff;
+  background-color: #32425c;
+}
+
+.site-navigation-footer a:hover{
+  text-decoration: underline;
+}
+
+.site-navigation-footer a:focus{
+  opacity: 0.5;
+}
+
+.color a{
+  color: #ffda96;
+}
+
+.footer-communication{
+  background-color: #293449;
+  color: #fff;
+  text-transform: none;
+}
+
+.footer-contacts{
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-social{
+  list-style: none;
+}
+
+.footer-social a{
+  color: #fff;
+}
+
+.footer-copyright{
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer-copyright a{
+  color: #ffd180;
+}
+
+.footer-copyright a:hover{
+  text-decoration: underline;
+}
+
+.footer-copyright a:focus{
+  color: #ee3643;
+  text-decoration:none;
+}
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form textarea{
+  color: #000000;
+  background-color: #ffffff;
+  border: 2px solid #dee3e4;
+}
+
+.login-form{
+  text-transform: none;
+  font-size: 18px;
+  line-height: 18px;
+}
+
+.filter-button{
+  border: 0;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.user-name a{
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.user-navigation-in{
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.user-navigation-in a{
+  color:#32425c;
+}
+
+.user-navigation-in{
+  list-style: none;
+  text-decoration: underline;
+}
+
+.user-navigation-in a:hover{
+  color: #ee3643;
+}
+
+.user-navigation-in a:focus{
+  color: rgba(50,66,92,0.3);
+}
+
+.user-navigation-in-name{
+  background-color: #fff;
+  list-style: none;
+}
+
+.user-navigation-in-name{
+  font-size: 21px;
+  line-height: 21px;
+}
+
+.user-navigation-in-name a{
+  color:#000;
+}
+
+.user-navigation-in-name a:focus{
+  opacity: 0.3;
+}
+
+.breadcrumbs {
+  font-size: 13px;
+  line-height: 18px;
+  color:#000;
+  background-color: #fff;
+  list-style: none;
+  text-transform: uppercase;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.breadcrumbs a{
+  color:#000;
+  text-transform: uppercase;
+}
+
+.page-title{
+  font-size: 30px;
+  line-height: 30px;
+  color:#32425c;
+}
+
+.filter fieldset {
+  border: none;
+}
+
+.filter legend {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.filter ul {
+  list-style: none;
+  line-height: 18px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.filter li{
+  color: #000;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.filter-input:disabled + label {
+  color: #000;
+  opacity: 0.4;
+}
+
+.filter-button {
+  font-family: "PT Sans", Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  color:#000;
+  background-color: #fff;
+}
+
+.filter-button:hover{
+  background-color: #fff;
+}
+
+.filter-button:focus{
+  background-color: #fff;
+}
+
+.catalog-item:hover{
+  box-shadow: 
+  0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.catalog ul {
+  list-style: none;
+}
+
+.catalog-item p{
+  font-size: 18px;
+  line-height: 20px;
+  font-family: "PT Sans", Arial, sans-serif;
+}
+
+.catalog-item-oldprice{
+  color:#999;
+  font-size: 17px;
+  line-height: 18px;
+}
+
+.catalog-category{
+  text-transform: none;
+}
+
+.catalog-item-price{
+  color:#000;
+  font-size: 17px;
+  line-height: 18px;
+  color:#fff;
+}
+
+.cart{
+  font-size: 30px;
+  line-height: 30px;
+}
+
+.cart-hot-button{
+  font-size: 14px;
+  line-height: 18px;
+  outline: 0;
+}
+
+.cart-hot-button .button_order{
+  color:#fff;
+  background-color: #ee3643;
+}
+
+.cart-hot-button .button_shopping{
+  color:#000;
+  background-color: #fff;
+}
+
+.cart-hot-button button{
+  border: 0px;
+}
