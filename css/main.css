@@ -2,14 +2,15 @@ body {
   margin: 0;
   padding: 0;
 
-  font-family: "Cuprum", Arial, sans-serif;
+  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
-  font-weight: 700;
   color: #000;
-  text-transform: uppercase;
-  
   background-color: #fff;
+}
+
+.main-header{
+  font-family: "Cuprum", Arial, sans-serif;
 }
 
 .main-hot-button {
@@ -21,7 +22,7 @@ body {
   line-height: 18px;
   list-style: none;
 }
-.main-navigation-hot-button .formalize a{
+.formalize a{
   background-color: #63a63e;
 }
 
@@ -32,18 +33,13 @@ body {
 
 a{
   text-decoration: none;
-  text-transform: none;
 }
 
-.main-hot-button .search{
-  text-transform: none;
-}
-
-.main-navigation-hot-button .formalize a:hover{
+.formalize a:hover{
   background-color: #5fbb2d;
 }
 
-.main-navigation-hot-button .formalize a:focus{
+.formalize a:focus{
   background-color: #518534;
   color:rgba(255,255,255,0.6)
 }
@@ -65,32 +61,30 @@ a{
   color:#ee3643;
   font-size: 16px;
   line-height: 23px;
-  text-transform: none;
+  font-style: italic;
 }
 
 .number{
   color:#ee3643;
   font-size: 21px;
   line-height: 21px;
-  text-transform: none;
 }
 
 .address{
   color:#32425c;
   font-size: 14px;
   line-height: 24px;
-  text-transform: none;
 }
 
 .user-navigation a{
   color: #000;
   font-size: 21px;
   line-height: 21px;
-  text-transform: none;
 }
 
 .user-navigation{
   list-style: none;
+  font-weight: bold;
 }
 
 .user-navigation a:hover{
@@ -125,24 +119,28 @@ a{
 .info-contacts{
   background-color: #fff;
   color:#000;
-  text-transform: none;
 }
 
-.info-company h2{
+.info-company h2,
+.contacts h2{
   font-size: 30px;
   line-height: 30px;
+  font-weight: normal;
+  font-family: "Cuprum", Arial, sans-serif;
+  text-transform: uppercase;
 }
 
 .info-company p{
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .partners{
   font-size: 18px;
   line-height: 20px;
   list-style: none;
+  font-family: "Cuprum", Arial, sans-serif;
+  font-weight: bold;
 }
 
 .button{
@@ -152,15 +150,9 @@ a{
   background-color: #ee3643;
 }
 
-.contacts h2{
-  font-size: 30px;
-  line-height: 30px;
-}
-
 .contacts p{
   font-size: 13px;
   line-height: 24px;
-  font-family: "PT Sans", Arial, sans-serif;
 }
 .button:hover{
   background-color: #ca2c37;
@@ -176,7 +168,7 @@ a{
   text-transform: none;
 }
 
-img{
+.img-logo{
   background-color: #ee3643;
 }
 
@@ -185,7 +177,8 @@ img{
   line-height: 24px;
 }
 
-.site-navigation-footer{
+.site-navigation-footer,
+.color{
   font-size: 18px;
   line-height: 24px;
   list-style: none;
@@ -317,7 +310,6 @@ img{
   background-color: #fff;
   list-style: none;
   text-transform: uppercase;
-  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .breadcrumbs a{
@@ -329,6 +321,9 @@ img{
   font-size: 30px;
   line-height: 30px;
   color:#32425c;
+  font-family: "Cuprum", Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: normal;
 }
 
 .filter fieldset {
@@ -336,7 +331,6 @@ img{
 }
 
 .filter legend {
-  font-family: "PT Sans", Arial, sans-serif;
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
@@ -345,7 +339,6 @@ img{
 .filter ul {
   list-style: none;
   line-height: 18px;
-  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .filter li{
@@ -360,7 +353,6 @@ img{
 }
 
 .filter-button {
-  font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
   color:#000;
@@ -376,8 +368,7 @@ img{
 }
 
 .catalog-item:hover{
-  box-shadow: 
-  0px 5px 10px 5px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
 .catalog ul {
@@ -387,7 +378,6 @@ img{
 .catalog-item p{
   font-size: 18px;
   line-height: 20px;
-  font-family: "PT Sans", Arial, sans-serif;
 }
 
 .catalog-item-oldprice{
@@ -396,12 +386,15 @@ img{
   line-height: 18px;
 }
 
-.catalog-category{
-  text-transform: none;
+.catalog-category,
+.catalog-item-title{
+  font-size: 18px;
+  line-height: 20px;
+  color:#000;
+  font-weight: bold;
 }
 
-.catalog-item-price{
-  color:#000;
+.catalog-item-price,{
   font-size: 17px;
   line-height: 18px;
   color:#fff;
@@ -429,5 +422,9 @@ img{
 }
 
 .cart-hot-button button{
-  border: 0px;
+  border: 0;
+}
+
+.all-footer{
+  font-family: "Cuprum", Arial, sans-serif;
 }
