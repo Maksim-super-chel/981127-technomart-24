@@ -390,7 +390,7 @@ a{
   font-weight: bold;
 }
 
-.catalog-item-price,{
+.catalog-item-price{
   font-size: 17px;
   line-height: 18px;
   color:#fff;
@@ -425,7 +425,7 @@ a{
   font-family: "Cuprum", Arial, sans-serif;
 }
 
-.container {
+.container{
   width: 940px;
   margin: 0 auto;
   padding: 0 10px;
@@ -437,7 +437,17 @@ a{
 .info-contacts,
 .first-line-footer,
 .second-line-footer,
-.footer-communication{
+.footer-communication,
+.site-navigation,
+.main-hot-button,
+.main-navigation-hot-button,
+.first-line-footer,
+.site-navigation-footer,
+.second-line-footer,
+.color,
+.footer-social,
+.breadcrumbs,
+.user-navigation-in{
   display: flex;
   align-items: flex-start;
   flex-direction: row;
@@ -529,20 +539,20 @@ a{
   margin: auto;
 }
 
-.catalog-columns {
+.catalog-columns{
   display: flex;
   justify-content: space-between;
 }
 
-.filters {
+.filters{
   width: 220px;
 }
 
-.catalog {
+.catalog{
   width: 700px;
 }
 
-.catalog-list {
+.catalog-list{
   display: flex;
   flex-wrap: wrap;
   padding: 0;
