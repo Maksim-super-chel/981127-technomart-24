@@ -1711,6 +1711,14 @@ img{
   margin-bottom: -16px;
 }
 
+.popular-manufacturers{
+  margin-top: -25px;
+}
+
+.popular-goods-header{
+  margin-bottom: 35px;
+}
+
 .popular-manufacturers-header-button{
   padding: 11px 69px 9px 69px;
 }
@@ -1722,37 +1730,43 @@ img{
   list-style: none;
 }
 
+.partners-manufacturers li:nth-child(4n){
+  margin-right: 0px;
+}
+
 .partners-manufacturers-item{
-  width: 218px;
-  height: 143px;
+  padding: 0;
   background-image: url("../img/bosch.jpg");
   background-repeat: no-repeat;
   border: 1px solid #eaeaea;
   background-position: 46px 51px;
+  padding-right: 220px;
+  padding-bottom: 130px;
 }
 
-.partners-manufacturers a:nth-child(4n){
-  margin-right: 0px;
-}
-
-.partners-manufacturers a{
+.partners-manufacturers li{
   width: 220px;
   height: 145px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
-.partners-manufacturers a:hover{
+.partners-manufacturers-item:hover{
   box-shadow: 0 10px 20px grey;
 }
 
-.partners-manufacturers a:focus{
+.partners-manufacturers-item:focus{
   box-shadow: 0 10px 20px grey;
   opacity: 0.3;
 }
 
 .popular-manufacturers{
   margin-bottom: 130px;
+}
+
+.bosch{
+  background-image: url("../img/bosch.jpg");
+  background-position: 46px 51px;
 }
 
 .makita{
@@ -1819,7 +1833,11 @@ img{
   font-weight: bold;
 }
 
-.slider-merits-button-item{
+.slider-merits-button-link{
+  padding: 100px;
+}
+
+.slider-merits-button-link{
   position: relative;
   width: 218px;
   height: 48px;
@@ -1930,27 +1948,50 @@ img{
   margin-bottom: 127px;
 }
 
-.slider-merits-button-link:hover .slider-merits-button-item{
+.slider-merits-all input{
+  display: none;
+}
+
+.services-slider-navigation label{
+  display: block;
+  font-size: 21px;
+  line-height: 30px;
+  font-weight: bold;
+  font-family: "Cuprum", Arial, sans-serif;
+  color: white;
+  max-width: 240px;
+  max-height: 65px;
+  background-color: #32425c;
+  padding: 12px 140px 20px 22px;
+  cursor: pointer;
+}
+
+#services-slide-1:hover ~ .services-slider-navigation label[for="services-slide-1"],
+#services-slide-2:hover ~ .services-slider-navigation label[for="services-slide-2"],
+#services-slide-3:hover ~ .services-slider-navigation label[for="services-slide-3"] {
   background-color: #293449;
 }
 
+#services-slide-1:checked ~ .services-slider-navigation label[for="services-slide-1"],
+#services-slide-2:checked ~ .services-slider-navigation label[for="services-slide-2"],
+#services-slide-3:checked ~ .services-slider-navigation label[for="services-slide-3"] {
+  background-color: white;
+  color: #32425c;
+}
+
+.slider-merits-button-link:hover .slider-merits-button-item{
+  background-color: #293449;
+}
 
 .slider-merits-button-link:focus .slider-merits-button-item{
   background-color: white;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
   color: #32425c;
-  z-index: 5;
 }
 
-.slider-merits-button-link{
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-button:active,
-button:focus{
+button:active, 
+button:focus {
   outline: none;
 }
 
@@ -2206,10 +2247,15 @@ button:focus{
   text-transform: uppercase;
   font-size: 13px;
   line-height: 18px;
-  padding: 9px 14px 9px 15px;
   border: 1px solid #e5e5e5;
   margin-right: 10px;
   border-radius: 3px;
+  list-style: none;
+  padding: 9px 14px 9px 15px;
+}
+
+.catalog-page-link{
+  color: black;
 }
 
 .catalog-page{
@@ -2222,29 +2268,10 @@ button:focus{
   padding: 9px 31px 9px 31px;
 }
 
-.catalog-page-link:hover .catalog-page-item{
-  border: 1px solid #bdc6ca;
-}
-
-.catalog-page-link:focus .catalog-page-item{
-  border: 1px solid #ee3643;
-}
-
-.re-words-wrapper{
-  margin: 0;
-  padding: 0;
-  width: 1000%;
-  margin-left:-500px;
-  z-index: 10;
-  background-color: #f2f6f8;
-}
-
 .re-words{
   background-color: #f2f6f8;
   padding-top: 32px;
   padding-bottom: 56px;
-  margin-left: 500px;
-  width: 940px;
 }
 
 .re-words h3{
@@ -2268,4 +2295,15 @@ button:focus{
 
 .main-hot-button{
   margin-bottom: -33px;
+}
+
+.filter-manufacturers{
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+
+.filter-manufacturers-manufacturers{
+  margin-top: 0px;
 }
