@@ -80,14 +80,14 @@
           <div class="slider-inner">
             <div class="slider-slides">
               <div class="slider-slides_slider_1 slider-slides-item">
-                <img src="img/slider_1.jpg">
+                <img src="img/slider_1.jpg" alt="Первый слайд">
                 <div class="slider-slides-item-info">
                   <h3>Дрели</h3>
                   <p>Соседям на радость!</p>
                 </div>
               </div>
               <div class="slider-slides_slider_2 slider-slides-item">
-                <img src="img/slider_2.jpg">
+                <img src="img/slider_2.jpg" alt="Второй слайд">
                 <div class="slider-slides-item-info">
                   <h3>Перфораторы</h3>
                   <p>Настоящие мужсуие игрушки</p>
@@ -188,14 +188,14 @@
         <a class="button popular-manufacturers-header-button goods-manufacturers-header-button" href="#">Все производители</a>
       </div>
       <ul class="partners-manufacturers">
-        <a href="#"><li class="partners-manufacturers-item bosch"></li></a>
-        <a href="#"><li class="partners-manufacturers-item makita"></li></a>
-        <a href="#"><li class="partners-manufacturers-item dewalt"></li></a>
-        <a href="#"><li class="partners-manufacturers-item interscol"></li></a>
-        <a href="#"><li class="partners-manufacturers-item hitachi"></li></a>
-        <a href="#"><li class="partners-manufacturers-item lg"></li></a>
-        <a href="#"><li class="partners-manufacturers-item aeg"></li></a>
-        <a href="#"><li class="partners-manufacturers-item metabo"></li></a>
+        <li><a class="partners-manufacturers-item bosch" href="#"></a></li>
+        <li><a class="partners-manufacturers-item makita" href="#"></a></li>
+        <li><a class="partners-manufacturers-item dewalt" href="#"></a></li>
+        <li><a class="partners-manufacturers-item interscol" href="#"></a></li>
+        <li><a class="partners-manufacturers-item hitachi" href="#"></a></li>
+        <li><a class="partners-manufacturers-item lg" href="#"></a></li>
+        <li><a class="partners-manufacturers-item aeg" href="#"></a></li>
+        <li><a class="partners-manufacturers-item metabo" href="#"></a></li>
       </ul>
     </section>
     <section class="slider-merits">
@@ -205,11 +205,14 @@
           Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
       </div>
       <div class="slider-merits-all">
-        <ul class="slider-merits-button">
-          <button class="slider-merits-button-link" href="#"><li class="slider-merits-button-item">Доставка</li></button>
-          <button class="slider-merits-button-link" href="#"><li class="slider-merits-button-item">Гарантия</li></button>
-          <button class="slider-merits-button-link" href="#"><li class="slider-merits-button-item">Кредит</li></button>
-        </ul>
+        <input class="slider-merits-all-input" type="radio" id="services-slide-1" name="services-slide" checked>
+        <input class="visually-hidden" type="radio" id="services-slide-2" name="services-slide">
+        <input class="visually-hidden" type="radio" id="services-slide-3" name="services-slide">
+        <div class="services-slider-navigation">
+          <label for="services-slide-1">Доставка</label>
+          <label for="services-slide-2">Гарантия</label>
+          <label for="services-slide-3">Кредит</label>
+        </div>
         <div class="slider-inner slider-merits-inner">
           <div class="slider-merits-item">
             <div class="slider-merits-item-first slider-merits-item-all">
