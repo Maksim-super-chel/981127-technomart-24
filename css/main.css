@@ -1,7 +1,6 @@
-body {
+body{
   margin: 0;
   padding: 0;
-
   font-family: "PT Sans", Arial, sans-serif;
   font-size: 13px;
   line-height: 24px;
@@ -13,7 +12,7 @@ body {
   font-family: "Cuprum", Arial, sans-serif;
 }
 
-.main-hot-button {
+.main-hot-button{
   background-color: #293449;
 }
 
@@ -63,7 +62,7 @@ a{
   margin-bottom: 25px;
 }
 
-.header-info {
+.header-info{
   color:#ee3643;
   font-size: 16px;
   line-height: 23px;
@@ -339,7 +338,7 @@ a{
   opacity: 0.3;
 }
 
-.breadcrumbs {
+.breadcrumbs{
   font-size: 13px;
   line-height: 18px;
   color:#000;
@@ -362,17 +361,17 @@ a{
   font-weight: normal;
 }
 
-.filter fieldset {
+.filter fieldset{
   border: none;
 }
 
-.filter legend {
+.filter legend{
   font-size: 17px;
   line-height: 30px;
   font-weight: bold;
 }
 
-.filter ul {
+.filter ul{
   list-style: none;
   line-height: 18px;
 }
@@ -383,12 +382,12 @@ a{
   line-height: 20px;
 }
 
-.filter-input:disabled + label {
+.filter-input:disabled + label{
   color: #000;
   opacity: 0.4;
 }
 
-.filter-button {
+.filter-button{
   font-size: 13px;
   line-height: 18px;
   color:#000;
@@ -407,7 +406,7 @@ a{
   box-shadow: 0 5px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
-.catalog ul {
+.catalog ul{
   list-style: none;
 }
 
@@ -517,17 +516,14 @@ a{
 
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
+input[type="radio"].visually-hidden{
   position: absolute;
-
   width: 1px;
   height: 1px;
   margin: -1px;
   border: 0;
   padding: 0;
-
   white-space: nowrap;
-
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -578,7 +574,7 @@ input[type="radio"].visually-hidden {
   margin-bottom: 25px;
 }
 
-.catalog-item:nth-child(3n) {
+.catalog-item:nth-child(3n){
   margin-right: 0;
 }
 
@@ -665,7 +661,7 @@ img{
   padding-left: 80px;
 }
 
-.number::before {
+.number::before{
   content: "";
   position: absolute;
   top: 0px;
@@ -700,7 +696,7 @@ img{
   padding-left: 60px;
 }
 
-.partners-line::before {
+.partners-line::before{
   content: "";
   position: absolute;
   top: 9px;
@@ -790,7 +786,7 @@ img{
   margin-right: -10px;
 }
 
-.social-button {
+.social-button{
   display: flex;
   align-items: center;
   justify-content: center;
@@ -883,7 +879,7 @@ img{
 }
 
 .bookmarks::before,
-.basket::before {
+.basket::before{
   content: "";
   position: absolute;
   top: 12px;
@@ -1271,11 +1267,11 @@ img{
   margin-right: 0;
 }
 
-.catalog-items {
+.catalog-items{
   font-size: 0;
 }
 
-.catalog-item {
+.catalog-item{
   font-size: 16px;
 }
 
@@ -1730,25 +1726,24 @@ img{
   list-style: none;
 }
 
+.popular-manufacturers-header{
+  margin-bottom: 23px;
+}
+
 .partners-manufacturers li:nth-child(4n){
   margin-right: 0px;
 }
 
 .partners-manufacturers-item{
-  padding: 0;
-  background-image: url("../img/bosch.jpg");
-  background-repeat: no-repeat;
-  border: 1px solid #eaeaea;
-  background-position: 46px 51px;
-  padding-right: 220px;
-  padding-bottom: 130px;
+  padding-top: 140px;
 }
 
 .partners-manufacturers li{
-  width: 220px;
-  height: 145px;
+  width: 218px;
+  height: 143px;
   margin-right: 20px;
   margin-bottom: 20px;
+  border: 1px solid #eaeaea;
 }
 
 .partners-manufacturers-item:hover{
@@ -1760,48 +1755,8 @@ img{
   opacity: 0.3;
 }
 
-.popular-manufacturers{
+.partners-manufacturers{
   margin-bottom: 130px;
-}
-
-.bosch{
-  background-image: url("../img/bosch.jpg");
-  background-position: 46px 51px;
-}
-
-.makita{
-  background-image: url("../img/Makita.jpg");
-  background-position: 47px 48px;
-}
-
-.dewalt{
-  background-image: url("../img/DeWALT.jpg");
-  background-position: 36px 46px;
-}
-
-.interscol{
-  background-image: url("../img/interscol.jpg");
-  background-position: 8px 19px;
-}
-
-.hitachi{
-  background-image: url("../img/hitachi.jpg");
-  background-position: 27px 56px;
-}
-
-.lg{
-  background-image: url("../img/lg.jpg");
-  background-position: 47px 33px;
-}
-
-.aeg{
-  background-image: url("../img/aeg.jpg");
-  background-position: 34px 21px;
-}
-
-.metabo{
-  background-image: url("../img/metabo.jpg");
-  background-position: 9px 32px;
 }
 
 .slider-merits-header{
@@ -1968,13 +1923,13 @@ img{
 
 #services-slide-1:hover ~ .services-slider-navigation label[for="services-slide-1"],
 #services-slide-2:hover ~ .services-slider-navigation label[for="services-slide-2"],
-#services-slide-3:hover ~ .services-slider-navigation label[for="services-slide-3"] {
+#services-slide-3:hover ~ .services-slider-navigation label[for="services-slide-3"]{
   background-color: #293449;
 }
 
 #services-slide-1:checked ~ .services-slider-navigation label[for="services-slide-1"],
 #services-slide-2:checked ~ .services-slider-navigation label[for="services-slide-2"],
-#services-slide-3:checked ~ .services-slider-navigation label[for="services-slide-3"] {
+#services-slide-3:checked ~ .services-slider-navigation label[for="services-slide-3"]{
   background-color: white;
   color: #32425c;
 }
@@ -1990,8 +1945,8 @@ img{
   color: #32425c;
 }
 
-button:active, 
-button:focus {
+button:active,
+button:focus{
   outline: none;
 }
 
@@ -2269,7 +2224,6 @@ button:focus {
 }
 
 .re-words{
-  background-color: #f2f6f8;
   padding-top: 32px;
   padding-bottom: 56px;
 }
@@ -2307,3 +2261,55 @@ button:focus {
 .filter-manufacturers-manufacturers{
   margin-top: 0px;
 }
+
+.slider-merits-item-first-info{
+  width: 275px;
+}
+
+.slider-merits-item-second-info{
+  width: 375px;
+}
+
+.info-navigation-wrapper{
+  padding-bottom: 20px;
+  background-color: #000;
+  margin-bottom: -120px;
+}
+
+.slider-merits-wrapper{
+  background-color: red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: -50px;
+  margin-bottom: -20px;
+}
+
+.re-words-wrapper{
+  background-color: #f2f6f8;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
