@@ -637,7 +637,7 @@ img{
   display: flex;
   flex-wrap: wrap;
   justify-content:flex-end;
-  width: 350px;
+  width: 300px;
   margin-top: 10px;
 }
 
@@ -653,19 +653,19 @@ img{
 
 .user-navigation li:nth-child(1) a{
   display: block;
-  padding: 15px 26px 15px 50px;
+  padding: 15px 0px 15px 50px;
 }
 
 .header-contacts .number{
   position: relative;
-  padding-left: 80px;
+  padding-left: 75px;
 }
 
 .number::before{
   content: "";
   position: absolute;
-  top: 0px;
-  left: 23px;
+  top: 11px;
+  left: 18px;
   width: 40px;
   height: 40px;
   background-image: url("../img/icon-phone.svg");
@@ -1285,9 +1285,6 @@ img{
   background-color: #ba2732;
 }
 
-.info-navigation-wrapper{
-  background-color: #f2f6f8;
-}
 
 .login-form{
   display: none;
@@ -1863,13 +1860,7 @@ img{
   background-image: url("../img/blue-car.png");
   background-repeat: no-repeat;
   background-position: 0 0;
-  z-index: -100;
-}
-
-.slider-merits-item-second-info::before{
-  background-image: url("../img/medal.png");
-  top: -3px;
-  left: 238px;
+  z-index: 100;
 }
 
 .slider-merits-item-second-info::before{
@@ -2242,11 +2233,6 @@ button:focus{
   line-height: 24px;
 }
 
-.info-navigation-wrapper{
-  padding-top: 33px;
-  background-color: #f3f7f9;
-}
-
 .main-hot-button{
   margin-bottom: -33px;
 }
@@ -2270,42 +2256,81 @@ button:focus{
   width: 375px;
 }
 
+
+
+
+
+
 .info-navigation-wrapper{
-  padding-bottom: 20px;
-  background-color: #000;
-  margin-bottom: -120px;
+  background-color: #f4f7f8;
+  margin-bottom: -64px;
+}
+
+.main-header{
+  margin-bottom: 0;
 }
 
 .slider-merits-wrapper{
-  background-color: red;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  margin-top: -50px;
-  margin-bottom: -20px;
+  background-color: #f4f7f8;
+  padding-top: 35px;
+  padding-bottom: 5px;
+  margin-top: -65px;
+  margin-bottom: 55px;
+}
+
+.slider-merits{
+  height: 325px;
 }
 
 .re-words-wrapper{
   background-color: #f2f6f8;
 }
 
+.info-navigation{
+  padding-top: 33px;
+  padding-bottom: 20px;
+  height: 225px;
+}
 
+.number{
+  padding: 10px 0 10px 0;
+  border: 3px solid white;
+  width: 195px;
+  margin-top: 12px;
+  margin-bottom: -10px;
+}
 
+.user-navigation .to-come-in{
+  width: 70px;
+}
 
+.login-svg{
+  margin-left: -38px;
+}
 
+.breadcrumbs{
+  padding: 20px 0 20px 0;
+  margin-left: 0;
+  margin-top: 65px;
+  margin-bottom: -20px;
+}
 
+.services-slider-navigation{
+  position: relative;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
+.services-slider-navigation:before{
+  content: "";
+  position: absolute;
+  top: -40px;
+  right: 0px;
+  width: 10px;
+  height: 280px;
+  background-image: url("../img/shadow.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  z-index: 20;
+}
 
 
 
